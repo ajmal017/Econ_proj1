@@ -76,15 +76,16 @@ def get_prices(securities, account, prices_file, data_type,
         download_data = download_data_fn(price_data, account, pnt_stmnt)
     else:
         download_data = True
-    # print('Here')
+    
     if download_data or force_update:
         i = 1
+        print('')
+        print('Downloading price data ....')
         while i < 5:
             # print('Attempts (before try)= '+str(i))
             try:
                 # print('Attempts (in the try)= '+str(i))
                 price_data = pd.DataFrame()
-                # print("Here")
                 for t in securities:
                     # print("Here")
                     if data_type == 'all':
@@ -93,21 +94,21 @@ def get_prices(securities, account, prices_file, data_type,
                     else:
                         # print('Here')
                         price_data[t] =\
-                            pdr.get_data_yahoo(t, start=start_date)[data_type]
-                        # downloading the data
+                            pdr.get_data_yahoo(t, start=start_date)[data_type]   
                 price_data.sort_index(inplace=True)
                 price_data.to_csv(prices_file, sep=';', index=True)
                 i += 1
                 # print("Here")
             except Exception:
-                print("reconnect")
-                print('Attempts (exception)='+str(i))
+                print("failed .. reconnect .."
+                    "try again ... downloading "+ t)
                 i += 1
                 pass
 
             else:
                 break
         i = 1
+        print('Downloading price data .... Finished')
         download_data = False
         return(price_data)
     return(price_data)
@@ -448,6 +449,7 @@ def update_securities_df():
     print('Downloding financial data ....')
 
     for i in temp['Ticker']:
+        print(i)
         div_tick = pd.DataFrame(yf.Ticker(i).dividends)
         info_tick = yf.Ticker(i).info
         if info_tick['longBusinessSummary'] != np.nan:
