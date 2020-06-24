@@ -520,4 +520,4 @@ def update_securities_df():
 
 
 update_securities_df()
-# This function call is a continually updating financial "excel" database
+# This function call is a continually updating financial database
