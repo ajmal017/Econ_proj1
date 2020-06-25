@@ -1,5 +1,5 @@
-<p align="center"><img width=12.5% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/logo.png"></p>
-<p align="center"><img width=60% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/name.png"></p>
+<p align="center"><img width=25% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/logo.png"></p>
+<p align="center"><img width=20% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/name.png"></p>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![Python](https://img.shields.io/badge/python-v3.7+-blue.svg)
@@ -10,7 +10,7 @@
 
 ## Overview
 A current look at how the 11 different US market sectors are performing with regards to relative strength along with the dividend information. Also a graphical look at the S&P's bollinger bands, 50 day MA , and 200 day MA. The last graph is important econometric FRED data like risk-free rate, unemployment data, 30-yr mortgage rate, leading economic indicator, Core CPI, 10-2mo yield rate.
-<p align="center"><img width=95% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/Bull_bear.jpg"></p>
+<p align="center"><img width=60% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/Bull_bear.jpg"></p>
 
 <br>
 
