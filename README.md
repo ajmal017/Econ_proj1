@@ -8,19 +8,19 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Overview
+
+## Sector, Index, and Econometric Overview
 A current look at how the 11 different US market sectors are performing with regards to relative strength along with the dividend information. Also a graphical look at the S&P's bollinger bands, 50 day MA , and 200 day MA. The last graph is important econometric FRED data like risk-free rate, unemployment data, 30-yr mortgage rate, leading economic indicator, Core CPI, 10-2mo yield rate.
 <p align="center"><img width=60% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/Bull_bear.jpg"></p>
 
 <br>
 
 
-### Strategy suggestions
-
-## Market chart
+## Strategy suggestions
+### Market chart
 A bullish sign for the S&P occurs when the 50-day moving average (MA 50 - blue line) rises above the 200-day (MA 200 - purple line). This event is called the Golden Cross.
 Conversely, the Death cross event occurs when the 50-day MA decreases below the 200-day MA and would be considered bearish. Genrally, a bullish sign are prices that rise and bearish sign would be a decrease in prices.    
-<img src="https://github.com/anfederico/Clairvoyant/blob/master/media/Learning.gif" width=40%>
+<img src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/Golden_Death_cross.jpg" width=50%>
 
 <br>
 
