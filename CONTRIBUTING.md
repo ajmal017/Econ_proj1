@@ -18,8 +18,8 @@ Style Guides
 -------------------
 
 1. Use the PEP8 guide to write
-https://www.python.org/dev/peps/pep-0008/
-https://pep8.org/
+[PEP8 guide](https://www.python.org/dev/peps/pep-0008/)
+[Another PEP8 guide](https://pep8.org/)
 2. User modular architecture to group similar functions, classes, etc.
 3. Always use 4 spaces for indentation (don't use tabs)
 4. Try to limit line length to 80 characters

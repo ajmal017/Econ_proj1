@@ -39,7 +39,7 @@ My content is intended to be used and must be used for informational purposes on
 
 
 ## Contributing
-Please take a look at our [contributing](https://github.com/anfederico/Clairvoyant/blob/master/CONTRIBUTING.md) guidelines if you're interested in helping!
+Please take a look at my [contributing](https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/CONTRIBUTING.md) guidelines if you're interested in helping!
 #### Pending Features
 - Export model
 - Support for multiple sklearn SVM models
