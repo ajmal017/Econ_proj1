@@ -20,7 +20,7 @@ A current look at how the 11 different US market sectors are performing with reg
 ### Market chart
 A bullish sign for the S&P occurs when the 50-day moving average (MA 50 - blue line) rises above the 200-day (MA 200 - purple line). This event is called the Golden Cross.
 Conversely, the Death cross event occurs when the 50-day MA decreases below the 200-day MA and would be considered bearish. Genrally, a bullish sign are prices that rise and bearish sign would be a decrease in prices.    
-<img src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/Golden_Death_cross.jpg" width=50%>
+<p align="center"><img width=70% src="https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/media/Golden_Death_cross.jpg"></p>
 
 <br>
 
