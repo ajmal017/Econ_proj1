@@ -31,20 +31,12 @@ Conversely, the Death cross event occurs when the 50-day MA decreases below the 
 
 ## Latest Development Changes
 ```bash
-git clone https://github.com/anfederico/Clairvoyant
+git clone https://github.com/hilsdsg3/Econometric_data_and_sector_strength.git
 ```
 
 ## Disclaimer
 My content is intended to be used and must be used for informational purposes only. It is important to do your own analysis before making any investment based on your own personal circumstances. You should seek independent financial advice from a professional in connection with, or independently research and verify, any information that you find on this page, whether for the purpose of making an investment decision or otherwise.
 
-
-Remember, more is not always better!
-```python
-variables = ["SSO"]                            # 1 feature
-variables = ["SSO", "SSC"]                     # 2 features
-variables = ["SSO", "SSC", "RSI"]              # 3 features
-variables = ["SSO", "SSC", "RSI", ... , "Xn"]  # n features
-```
 
 ## Contributing
 Please take a look at our [contributing](https://github.com/anfederico/Clairvoyant/blob/master/CONTRIBUTING.md) guidelines if you're interested in helping!
