@@ -15,6 +15,17 @@ A current look at how the 11 different US market sectors are performing with reg
 
 <br>
 
+# Pre-requisites :
+## Pre-requisites to run Jupyter-Lab or Jupyter-Notebook
+1. Install [Python 3.8+](https://www.python.org/downloads/source/)
+2. To install Jupyter-Lab or Jupyter-Notebook, you do NOT have to install Anaconda. If don't want as comprehensive software as Anaconda then install [jupyterlab or jupyternotebook](https://jupyterlab.readthedocs.io/en/stable/getting_started/installation.html) here. Also there are brief instructions of how to install virtual environments which are a good idea.   
+
+## Pre-requisites to run this project :
+3. Clone the project from : git clone https://github.com/hilsdsg3/Econometric_data_and_sector_strength.git
+4. Install a the [dependency python packages here] (https://github.com/hilsdsg3/Econometric_data_and_sector_strength/blob/master/requirements.txt) from this cloned file
+with "python -m pip install -r requirements.txt" in the cmd line. Your particular system may vary how you can install packages.  
+5. Next you will need an FRED API. Create a [US Federal Reserve Economic Data (FRED) user name here](https://research.stlouisfed.org/useraccount/login/secure/).
+6. Then log-in to create a [FRED API here](https://research.stlouisfed.org/docs/api/api_key.html)
 
 ## Strategy suggestions
 ### Market chart
